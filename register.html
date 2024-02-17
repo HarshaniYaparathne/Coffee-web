@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffee Shop Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<header>
+    <a href="index.html" class="icon"><img src="clogo.jpg"></a>
+
+    <ul class="navmenu">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT</a></li>
+        <li><a href="ourmenu.html">MENU</a></li>
+        <li><a href="contactus.html">CONTACT</a></li>
+        <li><a href="orderonline.html">ORDER</a></li>
+    </ul>
+    <div class="nav-icon">
+        <a href="register.html"><i class='fa fa-user' style='color: white'></i></a>
+        <i class="fa-sharp fa-solid fa-bars"></i>
+    </div>
+    </header>
+
+<body>
+    <section class="registerpage">
+    <div class="container2">
+        <h2>Register</h2>
+        <form action="submit.php" method="POST">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="input-group">
+                <label for="debit_card">Credit/Debit Card Number:</label>
+                <input type="text" id="debit_card" name="debit_card" required>
+            </div>
+            <div class="input-group">
+                <label for="telephone">Telephone Number:</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <p>Already a member? <a href="login.html">Log In</a></p>
+            <div class="input-group">
+                <button type="submit" class="btn3">Register</button>
+            </div>
+        </form>
+        </div>
+        </section>
+        </body>
+        </html>
