@@ -1,7 +1,6 @@
 # Coffee-web
 My first web site
 Coffee Website
-Description
 
 A simple and elegant coffee website designed using HTML and CSS. This project aims to provide an attractive, functional platform for coffee lovers, showcasing coffee varieties, offers, and more. The site is responsive and works well on both desktop and mobile devices.
 
