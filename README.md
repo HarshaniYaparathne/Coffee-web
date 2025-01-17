@@ -19,4 +19,5 @@ File Structure
     images/: Folder for images used in the website.
     fonts/: Folder for custom fonts (if applicable).
 
-    
+    ![image](https://github.com/user-attachments/assets/7a8f8f07-64c6-42fe-8dce-ceeef79f2784)
+
